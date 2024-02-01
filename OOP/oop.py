@@ -15,11 +15,11 @@ class car:
     # Constructor is private. No one call constructor
     #init__: the name of constructor in python
     #__ to show something is private
-    def __init__(self, s, i1):
+    def __init__(self, s, i):
         self.__CarID = i
         self.__registration = ""
         self.__dateofRegistration = None
-        self.__enginesize = e
+        self.__enginesize = s
         self.__purchasePrice = 0
     #Get methods: A method to access its associated attribute
     def getCarID(self):
@@ -35,7 +35,7 @@ class car:
     #Set Methods: a method to set the rules of its associated attributes
     #Parameter value is assigned to attribute
     #carID shouldn't change so not set method
-    def setregistration(self):
+    def setregistration(self, r):
         self.__registration = r
     def setdateofRegistration(self,d):
         self.__dateofRegistration = d
