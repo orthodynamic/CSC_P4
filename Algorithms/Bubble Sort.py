@@ -1,6 +1,6 @@
-
 # BUBBLE SORT
-MyList = [1,5,6,321,3,14,214,51,532,4,21]
+
+MyList = [321,142,2131,31,3,12,3,12,1,421,3,21,3,21,31,23,12]
 MaxIndex = len(MyList)-1
 n = MaxIndex - 1
 for i in range(MaxIndex):
