@@ -99,7 +99,6 @@ int word_check(char word[])
         {
             if (strncmp(&block[i][j], word, len) == 0)
             {
-                printf("Found %s horizontally at row %d, starting column %d\n", word, i, j);
                 return 1;
             }
             
