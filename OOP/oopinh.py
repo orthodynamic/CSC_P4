@@ -1,6 +1,6 @@
 # Inheritance: all attributes and methods of the base class are copied to the subclass
 # BASE CLASS / PARENT CLASS : Main class from which other class will copy
-# SUB CLASS ? CHILD CLASS: class that inherits/ copies the attributes and methods from the base class
+# SUB CLASS / CHILD CLASS: class that inherits/ copies the attributes and methods from the base class
 # library item: book, CD
 import datetime
 class libraryitem:
